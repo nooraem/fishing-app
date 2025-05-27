@@ -29,13 +29,13 @@ Right now, the app includes:
 ## Screenshots
 
 ### Home screen
-![Home screen](./assets/images/ui_kuva.png)
+<img src="./assets/images/ui_kuva.png" width="100" height="auto" />
 
 ### Trip Details screen
-![Trip details screen](./assets/images/ui_kuva1.png)
+<img src="./assets/images/ui_kuva1.png" width="100" height="auto" />
 
 ### Add trip screen
-![Add trip screen](./assets/images/ui_kuva2.png)
+<img src="./assets/images/ui_kuva2.png" width="100" height="auto" />
 
 ## License
 
