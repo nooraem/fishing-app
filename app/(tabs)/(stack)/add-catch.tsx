@@ -81,7 +81,6 @@ export default function AddCatchScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text>Add a new catch to:</Text>
       { trip 
       ? <>
           <Text style={styles.title}>{trip.name}</Text>
@@ -117,23 +116,23 @@ export default function AddCatchScreen() {
         </View>
         <TextInput
           style={styles.input}
-          placeholder="Length (cm)"
+          placeholder="Pituus (cm)"
           value={lengthCm}
           onChangeText={setLengthCm}
           keyboardType="numeric"
         />
         <TextInput
           style={styles.input}
-          placeholder="Weight (kg)"
+          placeholder="Paino (kg)"
           value={weightKg}
           onChangeText={setWeightKg}
           keyboardType="numeric"
         />
 
-        <Button title="Add Photo" color='#A5A58D'  onPress={pickImage} />
+        <Button title="Lisää kuva" color='#A5A58D'  onPress={pickImage} />
         {imageUri && <Image source={{ uri: imageUri }} style={styles.image} />}
 
-        <Button title="Add Location" color='#A5A58D' onPress={getLocation} />
+        <Button title="Lisää sijainti" color='#A5A58D' onPress={getLocation} />
         {location && (
           <View style={styles.location}>
             <Button
@@ -143,7 +142,7 @@ export default function AddCatchScreen() {
           </View>
         )}
 
-        <Button title="Save Catch" color='#6B705C' onPress={handleSaveCatch} />
+        <Button title="Tallenna" color='#6B705C' onPress={handleSaveCatch} />
       </View>
     </ScrollView>
   );

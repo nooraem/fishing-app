@@ -10,8 +10,7 @@ export default function ProfileScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Käyttäjätili</Text>
-      <Text style={styles.info}>( tänne tulee tietoja? )</Text>
+      <Text style={styles.title}>( work in progress )</Text>
       <Button 
         title="Kirjaudu ulos" 
         color={Colors[colorScheme ?? 'light'].tint}
@@ -29,12 +28,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 16,
     fontWeight: '400',
-    marginBottom: 10,
+    marginBottom: 40,
     letterSpacing: 0.5,
-  },
-  info: {
-    fontSize: 20,
-    fontWeight: '500',
-    marginBottom: 20,
-  },
+  }
 });
